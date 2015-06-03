@@ -1,8 +1,8 @@
 var play = new Game();
 
-window.onload=function(){
-  tellUs();
-};
+// window.onload=function(){
+//   tellUs();
+// };
 
 tellUs = function() {
   document.getElementById('whatsGoingOn').innerHTML = play.playerChoice;
@@ -38,4 +38,5 @@ winnerIsDecided = function(){
   console.log(play.message);
   decision();
 };
+
 
