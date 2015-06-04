@@ -1,9 +1,5 @@
 var play = new Game();
 
-// window.onload=function(){
-//   tellUs();
-// };
-
 tellUs = function() {
   document.getElementById('whatsGoingOn').innerHTML = play.playerChoice;
 };
