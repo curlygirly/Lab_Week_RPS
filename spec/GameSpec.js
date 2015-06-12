@@ -26,7 +26,7 @@ describe ('Game', function(){
   it('knows that when player chooses rock and computer chooses scissors, player wins', function() {
     game.chooseRock();
     game.randomNumber = 0.66;
-    game.computerRandomChoice(0.66);
+    game.computerRandomChoice();
     game.versus();
     expect(game.message).toEqual('Player wins!');
   });

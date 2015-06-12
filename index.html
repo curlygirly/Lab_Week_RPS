@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="RPS">
+  <title> ROCK, PAPER SCISSORS BATTLE</title>
+  <head>
+   <script src="bower_components/angular/angular.js"></script>
+   <script src="bower_components/angular-resource/angular-resource.js"></script>
+   <script src="src/Game.js"></script>
+   <script src="src/app.js"></script>
+  </head>
+
+  <body ng-controller='RPSController as rps'>
+    <h1>Rock, Paper or Scissors...</h1>
+    <h2>YOU DECIDE</h2>
+
+    <input id='rock' type="button" value="Rock" ng-click='rps.playerChoosesRock()'>
+    <input id='paper' type="button" value="Paper" ng-click='rps.playerChoosesPaper()'>
+    <input id='scissors' type="button" value="Scissors" ng-click='rps.playerChoosesScissors()'>
+
+    <br><br>
+
+    <input id='play' type='button' value='Play' ng-click='rps.winnerIsDecided()'>
+    <br><br>
+    <div> <span id='whatsGoingOn'> What ya choosing? </span> </div>
+
+    <br><br>
+    <input id='reset' type='button' value='Play Again' onClick='window.location.reload()'>
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

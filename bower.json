@@ -1,0 +1,20 @@
+{
+  "name": "Lab_Week_RPS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/curlygirly/Lab_Week_RPS",
+  "authors": [
+    "Jennifer Arad-Marks <jlaradmarks@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-resource": "~1.4.0"
+  }
+}
